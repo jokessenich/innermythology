@@ -109,7 +109,7 @@ export default class About extends React.Component {
                 <div className="contact-section">
         <h3 onClick = {()=>this.setState({contact:!this.state.contact})}> More questions?</h3>
         {this.state.contact?<div id = "contactInfo">
-           <a className="emailLink bigger" href="mailto:innermythology@gmail.com">innermythology (at) gmail.com </a>
+           <a className="emailLink bigger" href="mailto:innermythology@gmail.com">innermythology (at) gmail.com</a>
             </div>:""}
             </div>
             </div>
