@@ -1,0 +1,9 @@
+.podcast-links{
+    position:fixed;
+    right:5px;
+    top:5px;
+}
+
+.podcast-links>a{
+    float:right;
+}

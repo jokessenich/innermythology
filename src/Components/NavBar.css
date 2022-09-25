@@ -1,0 +1,26 @@
+.nav-flex{
+    margin-top:20px;
+}
+
+ul.ul-flex {
+    margin-top: 20px;
+}
+.ul-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ul-flex>li{
+    list-style: none;
+    margin-right:20%;
+    font-family: Nanum Myeongjo;
+    font-weight: 200;
+    font-size: 13pt;
+    }
+  .nav-link-horiz{
+      text-decoration: none;
+      color:#f8f0e9;
+      font-family: Nanum Myeongjo;
+  }

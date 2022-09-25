@@ -1,0 +1,56 @@
+.podcast-background{
+    background-color: #051805;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.faq-parent-section{
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../Images/heartRiver.jpg') no-repeat;
+    */
+    color: #f8f0e9;
+    font-family: Nanum Myeongjo;
+    font-size: 18pt;
+    line-height: 2.5rem;
+    animation: fadeInHome 5s;
+    text-align: left;
+    background-size: cover;
+    background-color: #051805;
+    background-position: center;
+    margin:0;
+    width:100%;
+}
+.faq-bg{
+    background-color: rgb(196 209 196 / 25%);
+    width: 80%;
+    margin-left: 17%;
+    border-radius: 45px;
+}
+.faq-section{
+    color: #f8f0e9;
+    width: 80%;
+    font-family: Nanum Myeongjo;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2;
+    font-size: 14pt;
+}
+
+.hidden-label{
+    font-size: 22pt;
+    padding-left:10%;
+}
+
+.subheader{
+    color:#f8f0e9;
+    font-family: Nanum Myeongjo;
+    font-weight: 200;
+}
+
+.episode-name{
+    color:#f8f0e9;
+    font-family: Nanum Myeongjo;
+    font-weight: 200;
+}

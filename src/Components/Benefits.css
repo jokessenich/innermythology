@@ -1,0 +1,24 @@
+.description-section{
+    color: #f8f0e9;
+    padding: 10%;
+    font-family: Nanum Myeongjo;
+    font-size: 18pt;
+    line-height: 2.5rem;
+    animation: faderIn 5s;
+    text-align: left;
+}
+
+.description-section-title{
+    font-family: Nanum Myeongjo;
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+.more-background{
+    background-color: #051805;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}

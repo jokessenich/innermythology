@@ -1,0 +1,39 @@
+
+@keyframes fadeInUxhome{
+    0%{color: #f8f0e9;}  
+    100%{color: #282c34;}
+}
+
+.uxhomelink{
+    text-decoration: none;
+    color: #282c34;
+    font-size: 20pt;
+    display:block;
+    padding-bottom: 50px;
+}
+
+
+.ux-home{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('../Images/GreenForest.jpg');
+    background-size:cover;
+    height:100vh;
+    }
+
+.page-header
+    {
+        color:#f1e3dd;
+        margin-left:auto;
+        margin-right:auto;
+        font-family: Nanum Myeongjo;
+        margin-top: 5%;
+        font-size:32pt;
+        font-weight: 200;
+        padding-bottom:5%;
+    }
+
+    .page-link{
+        text-decoration: none;
+        font-family: Nanum Myeongjo;
+        font-weight: 200;
+        color: #f8f0e9;
+    }

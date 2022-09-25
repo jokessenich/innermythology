@@ -1,0 +1,116 @@
+.entryheader:hover{
+    cursor:pointer;
+  }
+
+/*
+  .entryheader:hover{      
+
+    background-color: #f8f0e9;
+    color:#282c34;
+    transition: 3s;
+    
+  }
+  */
+  .entryheader{
+    background-color:#051805;
+    width:100%;
+    color: #e4e0ca;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    text-decoration: none;
+    font-family: Nanum Myeongjo;
+    font-weight: 200;
+    font-size:32pt;
+
+}
+.bottom-half{
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.7)),url('../Images/GreenForest.jpg') no-repeat;
+    background-size:cover;
+}
+.entrysubheader{
+    color: #f8f0e9;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: lighter;
+    font-family: Nanum Myeongjo;
+    position: fixed;
+    top:30%;
+}
+.top-half {
+    background-color: #051805;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+.breathe{
+    animation:faderIn 80s;
+    color: #f8f0e9;
+    font-weight: lighter;
+    margin-top: 0px;
+    font-size:10pt;
+}
+
+.homelink{
+    color:#072806;
+    text-decoration: none;
+    font-family: Nanum Myeongjo;
+    font-weight: bolder;
+}
+
+@keyframes faderIn{
+    0%{color: antiquewhite;}  
+    5%{color: #282c34;}
+    10%{color: antiquewhite;} 
+    15%{color: #282c34;}
+    20%{color: antiquewhite;} 
+    25%{color: #282c34;}
+    30%{color: antiquewhite;} 
+    35%{color: #282c34;}
+    40%{color: antiquewhite;} 
+    45%{color: #282c34;}
+    50%{color: antiquewhite;} 
+    55%{color: antiquewhite;}  
+    60%{color: #282c34;}
+    65%{color: antiquewhite;} 
+    70%{color: #282c34;}
+    75%{color: antiquewhite;} 
+    80%{color: #282c34;}
+    85%{color: antiquewhite;} 
+    90%{color: #282c34;}
+    95%{color: antiquewhite;} 
+    100%{color: #282c34;}
+    } 
+
+
+    .p-subheader{
+        color:#f1e3dd;
+        /* padding-top:40%; */
+        font-family: Nanum Myeongjo;
+        font-size: 10pt;
+        line-height: 2.5rem;
+        margin-top:0%;
+        margin-bottom:0px;
+        padding-bottom:20%;
+    }
+    .p-introduction{
+        color:#f1e3dd;
+        padding: 9%;
+        /* padding-top:40%; */
+        font-family: Nanum Myeongjo;
+        font-size: 20pt;
+        line-height: 2.5rem;
+        margin-top:0%;
+        margin-bottom:0px;
+        padding-bottom:20%;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        .entryheader{
+            font-size:20pt;
+        }
+    }

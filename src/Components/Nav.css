@@ -1,0 +1,124 @@
+.nav-bar{
+    width: 100%;
+    height: 0px;
+    text-align: center;
+    background: transparent;
+}
+
+.screen-nav-bar{
+  display: none;
+} 
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Nanum Myeongjo;
+
+}
+
+
+.nav-link:hover{
+    cursor: pointer;
+    background-color: #f8f0e9;
+    color: black;
+}
+
+.nav-bar a.icon {
+    background: transparent;
+    display: block;
+    position: absolute;
+    top: 2px;
+    color: white;
+  }
+
+  .bm-burger-button {
+    position: fixed;
+    width: 25px;
+    height: 20px;
+    right: 25px;
+    top: 25px;
+  }
+
+  .bm-burger-bars {
+    background:#282c34;
+  }
+
+  a.bm-item.nav-link{
+      padding-top: 30px;
+      font-size: 20pt;
+      height: 60px;
+      font-style: bolder;
+  }
+
+  .bm-overlay{
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  nav.bm-item-list {
+    position: fixed;
+    right: 0px;
+    background-color: white;
+    background-size: cover;
+    right: 0px;
+    padding-top: 50px;
+    width:25%
+}
+
+
+
+.bm-cross {
+    background-color: black;
+    height:50px;
+    width:50px;
+    background-size: cover;
+  }
+
+  .bm-cross-button {
+    position: absolute;
+    min-height: 50px;
+    min-width: 50px;
+    background-size: cover;
+    right:0px;
+  }
+
+  @media only screen and (min-width: 680px) {
+   
+
+  .screen-nav-bar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 0;
+    padding-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  } 
+
+  .nav-bar-link{
+
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16pt;
+    margin-right: 15px;;
+}
+
+  .nav-bar-link:hover{
+    background-color: black;
+  }
+  .home-hero{
+    padding-top: 90px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .screen-nav-bar{
+    justify-content: flex-end;
+
+    
+  } 
+}
