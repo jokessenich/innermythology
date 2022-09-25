@@ -24,8 +24,8 @@ render(){
             I offer a 30 minute virtual session for free to see if Inner Mythology is a good fit for you.{<br />}{<br />}
             <a className="scheduleLink" href="https://calendly.com/innermythology/intro-session">Click here to schedule a free introductory session.</a>
             {<br />}{<br />}
-            {<br />}{<br />}
 
+<h3>Full Length Sessions</h3>
             Virtual: An inner exploration with me via zoom. The session will be between 1 and 2 hours.
 {<br />}{<br />}
 
