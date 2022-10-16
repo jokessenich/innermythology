@@ -98,7 +98,7 @@ export default class About extends React.Component {
                             {<br />}
                             My work is to create a safe space and allow a framework for people to connect and explore their inner universe within. 
                             {<br />}
-                            {<br />}
+                            {<br></br>}
                             . . .
                             {<br />}
                             {<br />}
