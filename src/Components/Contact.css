@@ -38,11 +38,15 @@
 .scheduleLink{
     text-decoration: none;
     font-weight: 500;
-    color: peachpuff;
-    font-size:22pt;
+    color: black;
+    font-size: 22pt;
     font-family: Nanum Myeongjo;
     text-align: center;
     margin-left: 10%;
+    background-color: peachpuff;
+    border-radius: 25px;
+    padding: 25px;
+    display:inline-block;
 }
 .contact-section>h3{
     font-weight: 200;
@@ -73,3 +77,5 @@
 .session-types{
     margin-left: 175px;
 }
+
+

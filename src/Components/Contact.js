@@ -50,7 +50,8 @@ In Person: I offer three ways of connecting in person.
             We do offer some sliding scale servicess, contact for more information.
             {<br />}{<br />}
 
-            <a className="scheduleLink" href="https://calendly.com/innermythology/full-session">Click here to schedule a full length session.</a>
+            {//<a className="scheduleLink" href="https://calendly.com/innermythology/full-session">Click here to schedule a full length session.</a>
+}
         </p>
         <div className="contact-section">
         {this.state.hidden?<h3 onClick = {()=>this.setState({hidden:false})}>Click here for contact information</h3>:""}
